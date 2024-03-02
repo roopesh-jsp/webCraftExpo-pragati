@@ -54,6 +54,9 @@ left.addEventListener("click", () => {
   </p>
   <button>discover Now</button>`;
   content.innerHTML = html;
+  let img = `url(${arr[point].img})`;
+  console.log(img);
+  body.style.backgroundImage = img;
 });
 right.addEventListener("click", () => {
   if (point == 2) {
