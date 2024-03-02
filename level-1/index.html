@@ -3,8 +3,42 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>webCraftExpo | lv-1</title>
+    <title>webCraftExpo | level-1</title>
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body></body>
+  <body>
+    <div class="container">
+      <h4 class="form-heading">create your account</h4>
+      <p class="form-description">
+        Sign up now to preview your dashboard and start tracking your blood
+        pressure and BMI. To run yout first panel,visit a HealthTab
+        <span>location</span> Already have account? <a href="#">Log in.</a>
+      </p>
+      <form action="">
+        <label for="email">Email address</label>
+        <input type="email" id="email" />
+        <div class="passwords">
+          <label for="createPass"> Create password </label>
+          <input type="password" id="createPass" />
+          <label for="confirmPass"> Create password </label>
+          <input type="password" id="confirmPass" />
+        </div>
+        <div class="dob-ge">
+          <label for="dob">Date of birth</label>
+          <input type="date" id="dob" />
+          <label for="gender">Gender</label>
+          <input type="radio" name="gender" id="gender" />
+          <input type="radio" name="gender" id="gender" />
+        </div>
+        <div class="checkbox">
+          <input type="checkbox" />
+          <p class="check-description">
+            i have read and accept the <br />
+            <a href="#">HealthTab terams & condition</a>
+          </p>
+          <button>Submit</button>
+        </div>
+      </form>
+    </div>
+  </body>
 </html>
